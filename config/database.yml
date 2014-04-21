@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: zubairdesai_development
+  database: zubairdb
   pool: 5
-  username: zubairdesai
+  username: zubair_desai
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: zubairdesai_test
   pool: 5
-  username: zubairdesai
+  username: zubair_desai
   password:
 
 production:
