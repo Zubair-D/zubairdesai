@@ -11,4 +11,6 @@ describe "Home page" do
 		it { should have_title("Home Page // Zubair Desai")}
 	end
 
+	
+
 end
