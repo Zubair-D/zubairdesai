@@ -10,6 +10,7 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'sass-rails', '>= 3.2'
 
 gem 'bootstrap-will_paginate', '0.0.9'
+gem "twitter-bootstrap-rails"
 
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
