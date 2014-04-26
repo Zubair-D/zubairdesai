@@ -12,6 +12,10 @@ gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem "twitter-bootstrap-rails"
 
+# => Needed for proper Heroku deployment
+gem "therubyracer"
+gem "less-rails" 
+
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
