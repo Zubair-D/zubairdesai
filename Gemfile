@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.1.0'
+#ruby '2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
@@ -12,9 +12,6 @@ gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem "twitter-bootstrap-rails"
 
-# => Needed for proper Heroku deployment
-gem "therubyracer"
-gem "less-rails" 
 
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
@@ -70,15 +67,15 @@ group :test do
   gem 'shoulda-matchers'
 
   # Uncomment this line on OS X.
-   gem 'growl', '1.0.3'
+  # gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
   # gem 'libnotify', '0.8.0'
 
    #Uncomment these lines on Windows.
-   #gem 'rb-notifu', '0.0.4'
-   #gem 'win32console', '1.3.2'
-   #gem 'wdm', '0.1.0'
+   gem 'rb-notifu', '0.0.4'
+   gem 'win32console', '1.3.2'
+   gem 'wdm', '0.1.0'
 end
 
 
@@ -89,5 +86,7 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
+  gem "less-rails" 
+  gem "therubyracer" 
 end
 
